@@ -9,8 +9,8 @@ function sendEmail(message, sender, receivers) {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user : "furqan.adev@outlook.com",
-            pass : "Engineer555" 
+            user : "",
+            pass : "" 
         },
         tls: {
             ciphers:'SSLv3'
